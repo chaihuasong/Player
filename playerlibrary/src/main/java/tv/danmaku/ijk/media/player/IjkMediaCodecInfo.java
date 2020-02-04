@@ -136,7 +136,7 @@ public class IjkMediaCodecInfo {
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     public static IjkMediaCodecInfo setupCandidate(MediaCodecInfo codecInfo,
-                                                   String mimeType) {
+            String mimeType) {
         if (codecInfo == null
                 || Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN)
             return null;
